@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: #111827;
+    font-family: 'Poppins', sans-serif;
+    color: #F3F4F6;
+}
+
+#container {
+    background: #1F2937;
+    padding: 5.5% 3.5%;
+    width: 50%;
+    margin: 3% auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#rp-h1 {
+    margin-top: -40px;
+    color: #4ADF86;
+}
+
+#pass-text {
+    font-size: 25px;
+}
+
+#inpclick {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+input {
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    color: #F3F4F6;
+    background: #4ADF86;
+    width: 380px;
+    font-size: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#passwds {
+    display: flex;
+    justify-content: space-between;
+}
+
+#passwds p {
+    width: 380px;
+    height: 50px;
+    background: #273549;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #4ADF86;
+}
